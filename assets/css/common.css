@@ -1,0 +1,16 @@
+@charset "UTF-8";
+:root {
+    --main-font: "kinuta-shin-stdn", sans-serif;
+    --white: #fff;
+    --orange-brite: #f9ad95;
+    --pink-brite: #f9f0f1;
+}
+
+html{
+    visibility: hidden;
+}
+
+html.wf-active,
+html.loading-delay{
+    visibility: visible;
+}
